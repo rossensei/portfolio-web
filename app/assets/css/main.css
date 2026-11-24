@@ -1,0 +1,9 @@
+body {
+	font-family: "Space Grotesk", sans-serif;
+	background-color: #10161d;
+}
+
+code,
+.mono {
+	font-family: "JetBrains Mono", monospace;
+}
