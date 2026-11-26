@@ -3,5 +3,6 @@
     <NavigationBar />
     <Hero />
     <Projects />
+    <Skills />
   </div>
 </template>
