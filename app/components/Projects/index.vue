@@ -1,5 +1,5 @@
 <template>
-  <section id="projects" class="py-[96px] h-full border border-rule">
+  <section id="projects" class="py-[96px] h-full border-t border-rule">
     <div class="max-w-[1340px] w-full mx-auto">
       <div class="flex items-center justify-between mb-12">
         <div>
