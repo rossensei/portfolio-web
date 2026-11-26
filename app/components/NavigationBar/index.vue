@@ -10,7 +10,7 @@
       <nav class="flex items-center">
         <ul class="flex items-center gap-4 text-muted text-[13px] font-medium mono uppercase">
           <li>
-            <a href="#" class="text-muted hover:text-ink transition-color duration-200 ease-in-out">Projects</a>
+            <a href="#projects" class="text-muted hover:text-ink transition-color duration-200 ease-in-out">Projects</a>
           </li>
           <li>
             <a href="#" class="text-muted hover:text-ink transition-color duration-200 ease-in-out">Skills</a>
