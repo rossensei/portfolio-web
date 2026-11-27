@@ -4,7 +4,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxtjs/tailwindcss',
-    '@nuxt/fonts'
+    '@nuxt/fonts',
+    '@nuxt/eslint'
   ],
   css: ['~/assets/css/main.css'],
   fonts: {
@@ -34,5 +35,9 @@ export default defineNuxtConfig({
         }
       }
     }
+  },
+
+  eslint: {
+    
   }
 })
