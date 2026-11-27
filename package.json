@@ -5,6 +5,7 @@
   "packageManager": "pnpm@12.21.0",
   "scripts": {
     "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "typecheck": "nuxt typecheck",
     "build": "nuxt build",
     "dev": "nuxt dev",
