@@ -3,10 +3,10 @@
     <div class="rounded-lg border border-rule">
       <div class="flex items-center gap-[6px] border-b border-rule py-[9px] px-[12px]">
         <i 
-          class="w-[8px] h-[8px] rounded-full bg-rule"
           v-for="n in 3"
           :key="n"
-        ></i>
+          class="w-[8px] h-[8px] rounded-full bg-rule"
+        />
         <span class="ml-2 text-muted text-[11px] mono">{{ getDomain(project.url) }}</span>
       </div>
       <div class="h-[300px] mono text-xs text-muted">
@@ -35,7 +35,7 @@
 </template>
 
 <script setup lang="ts">
-const props = defineProps<{
+defineProps<{
   project: Project
 }>()
 
@@ -54,6 +54,4 @@ const images = import.meta.glob('~/assets/images/*.png', {
 }) as Record<string, string>
 
 const getImage = (name: string) => images[`/app/assets/images/${name}`]
-
-console.log(images)
 </script>

@@ -15,8 +15,8 @@
       <div class="grid grid-cols-2 gap-6">
         <ProjectsProjectCard
           v-for="project in projects"
-          :project
           :key="project.name"
+          :project
         />
       </div>
     </div>
