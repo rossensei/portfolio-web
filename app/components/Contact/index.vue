@@ -20,9 +20,9 @@
 
         <div class="flex items-center gap-6">
           <a 
+            v-for="(social, index) in socials"
+            :key="index" 
             class="text-muted transition-colors"
-            v-for="(social, index) in socials" 
-            :key="index"
             :href="social.link"
             target="_blank"
             re="noopener"

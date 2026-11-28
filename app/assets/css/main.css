@@ -19,6 +19,10 @@
 	--color-bg: #0b0f14;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 	font-family: "Space Grotesk", sans-serif;
 	background-color: #10161d;

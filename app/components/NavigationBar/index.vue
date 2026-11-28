@@ -13,10 +13,10 @@
             <a href="#projects" class="text-muted hover:text-ink transition-color duration-200 ease-in-out">Projects</a>
           </li>
           <li>
-            <a href="#" class="text-muted hover:text-ink transition-color duration-200 ease-in-out">Skills</a>
+            <a href="#skills" class="text-muted hover:text-ink transition-color duration-200 ease-in-out">Skills</a>
           </li>
           <li>
-            <a href="#" class="text-muted hover:text-ink transition-color duration-200 ease-in-out">Contact</a>
+            <a href="#contact" class="text-muted hover:text-ink transition-color duration-200 ease-in-out">Contact</a>
           </li>
         </ul>
       </nav>
