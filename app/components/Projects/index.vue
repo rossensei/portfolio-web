@@ -3,7 +3,7 @@
     <div class="max-w-[1340px] w-full mx-auto">
       <div class="flex items-center justify-between mb-12">
         <div>
-          <span class="text-[13px] text-accent mono uppercase">B — Selected work</span>
+          <span class="text-[13px] text-accent font-mono uppercase">B — Selected work</span>
           <h2 class="mt-2 text-[56px] text-ink font-medium leading-[1.05] tracking-[-.03em]">Two websites, in detail.</h2>
         </div>
 

@@ -8,16 +8,16 @@
           <span class="inline-block w-2 h-2 rounded-full bg-on-ink-muted" />
         </div>
 
-        <span class="mono text-xs text-on-ink uppercase">About.ts</span>
+        <span class="font-mono text-xs text-on-ink uppercase">About.ts</span>
       </div>
 
-      <span class="text-xs text-on-ink-muted mono uppercase">Typescript</span>
+      <span class="text-xs text-on-ink-muted font-mono uppercase">Typescript</span>
     </div>
-    <div class="flex flex-col text-ink text-[15px] leading-[170%] mono border-t border-rule p-4">
+    <div class="flex flex-col text-ink text-[15px] leading-[170%] font-mono border-t border-rule p-4">
       <div v-for="(line, index) in me.split('\n')" :key="index">
         <span class="inline-block text-on-ink-muted mr-4">{{ index + 1 }}</span>
         <!-- eslint-disable-next-line vue/no-v-html -->
-        <span class="whitespace-pre mono" v-html="highlight(line)" />
+        <span class="whitespace-pre font-mono" v-html="highlight(line)" />
       </div>
     </div>
   </div>
