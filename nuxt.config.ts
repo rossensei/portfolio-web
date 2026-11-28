@@ -11,17 +11,14 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxt/fonts',
-    '@nuxt/eslint'
+    '@nuxt/eslint',
+    '@nuxt/image'
   ],
   css: ['~/assets/css/main.css'],
-  // fonts: {
-  //   families: [
-  //     { name: 'Space Grotesk', provider: 'google' },
-  //     { name: 'JetBrains Mono', provider: 'google' },
-  //     { name: 'Inter', provider: 'google' },
-  //   ],
-  // },
   eslint: {
     
+  },
+  image: {
+    format: ['webp']
   }
 })
