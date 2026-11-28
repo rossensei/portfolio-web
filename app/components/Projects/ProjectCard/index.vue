@@ -7,19 +7,19 @@
           :key="n"
           class="w-[8px] h-[8px] rounded-full bg-rule"
         />
-        <span class="ml-2 text-muted text-[11px] mono">{{ getDomain(project.url) }}</span>
+        <span class="ml-2 text-muted text-[11px] font-mono">{{ getDomain(project.url) }}</span>
       </div>
-      <div class="h-[300px] mono text-xs text-muted">
+      <div class="h-[300px] font-mono text-xs text-muted">
         <img v-if="project.image" :src="getImage(project.image)" alt="Project Image">
       </div>
     </div>
-    <div class="flex items-center justify-between text-[13px] text-muted mono">
+    <div class="flex items-center justify-between text-[13px] text-muted font-mono">
       <span>No. 01</span>
       <span>{{ project.year }} · {{ project.type }}</span>
     </div>
     <h3 class="text-[26px] text-ink font-medium tracking-[-.02em]">{{ project.name }}</h3>
     <p class="text-muted">{{ project.description }}</p>
-    <ul class="flex items-center gap-2 mono text-xs text-ink leading-[1.5]">
+    <ul class="flex items-center gap-2 font-mono text-xs text-ink leading-[1.5]">
       <li 
         v-for="(tech, index) in project.stack"
         :key="index"
@@ -28,7 +28,7 @@
       </li>
     </ul>
     <div class="pt-4 flex items-center justify-between text-sm border-t border-rule">
-      <span class="mono text-[13px] text-muted">Role — {{ project.role }}</span>
+      <span class="font-mono text-[13px] text-muted">Role — {{ project.role }}</span>
       <a :href="project.url" rel="noopener" class="font-medium text-accent hover:underline">Visit site →</a>
     </div>
   </article>

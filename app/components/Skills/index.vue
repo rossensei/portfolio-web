@@ -1,7 +1,7 @@
 <template>
   <section id="skills" class="py-[96px] h-full border-t border-rule">
     <div class="max-w-[1340px] w-full mx-auto">
-      <span class="text-[13px] text-accent mono uppercase">C — Skills</span>
+      <span class="text-[13px] text-accent font-mono uppercase">C — Skills</span>
       <h2 class="mt-2 mb-[40px] text-[56px] text-ink font-medium leading-[1.05] tracking-[-.03em]">What I work with.</h2>
       <p class="text-ink text-[2rem] leading-[1.3] max-w-[760px] tracking-[-.01em] mb-6">
         I build web applications and websites for businesses, from the interface to the CMS and API behind it.
@@ -11,7 +11,7 @@
       </p>
       <div class="grid grid-cols-3 gap-[40px]">
         <div>
-          <h4 class="mb-4 mono text-[13px] text-muted">Frontend</h4>
+          <h4 class="mb-4 font-mono text-[13px] text-muted">Frontend</h4>
           <ul>
             <li class="py-[11px] border-t border-rule text-ink">TypeScript</li>
             <li class="py-[11px] border-t border-rule text-ink">JavaScript</li>
@@ -23,7 +23,7 @@
           </ul>
         </div>
         <div>
-          <h4 class="mb-4 mono text-[13px] text-muted">Backend</h4>
+          <h4 class="mb-4 font-mono text-[13px] text-muted">Backend</h4>
           <ul>
             <li class="py-[11px] border-t border-rule text-ink">Node.js</li>
             <li class="py-[11px] border-t border-rule text-ink">Scala</li>
@@ -36,7 +36,7 @@
           </ul>
         </div>
         <div>
-          <h4 class="mb-4 mono text-[13px] text-muted">Practice</h4>
+          <h4 class="mb-4 font-mono text-[13px] text-muted">Practice</h4>
           <ul>
             <li class="py-[11px] border-t border-rule text-ink">Testing</li>
             <li class="py-[11px] border-t border-rule text-ink">Code review</li>
