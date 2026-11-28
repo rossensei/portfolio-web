@@ -5,5 +5,6 @@
     <Projects />
     <Skills />
     <Contact />
+    <Footer />
   </div>
 </template>
